@@ -22,6 +22,8 @@ class TwoFactorPage extends SimplePage
 
     protected static string $view = 'filament-breezy::filament.pages.two-factor';
 
+    protected bool $hasTopbar = false;
+
     public $usingRecoveryCode = false;
 
     public $code;
