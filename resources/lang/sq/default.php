@@ -58,7 +58,7 @@ return [
             ],
             'finish_enabling' => [
                 'title' => 'Përfundo aktivizimin e autentifikimit me dy faktorë.',
-                'description' => "Për të përfunduar aktivizimin e autentifikimit me dy faktorë, skanoni kodin QR të mëposhtëm duke përdorur aplikacionin e autentifikimit ne telefonin tuaj ose futni çelësin e konfigurimit dhe vendosni kodin OTP të gjeneruar.",
+                'description' => 'Për të përfunduar aktivizimin e autentifikimit me dy faktorë, skanoni kodin QR të mëposhtëm duke përdorur aplikacionin e autentifikimit ne telefonin tuaj ose futni çelësin e konfigurimit dhe vendosni kodin OTP të gjeneruar.',
             ],
             'enabled' => [
                 'notify' => 'Autentifikimi me dy faktorë u aktivizua.',
