@@ -96,10 +96,18 @@ return [
             ],
             'enabled' => [
                 'title' => 'Sie haben die Zwei-Faktor-Authentifizierung aktiviert!',
+                'notify' => 'Zwei-Faktor-Authentifizierung wurde aktiviert.',
                 'description' => 'Die Zwei-Faktor-Authentifizierung ist jetzt aktiviert. Dadurch wird Ihr Konto noch sicherer.',
                 'store_codes' => 'Speichern Sie diese Wiederherstellungscodes in einem sicheren Passwort-Manager. Sie können verwendet werden, um den Zugang zu Ihrem Konto wiederherzustellen, wenn Ihr Zwei-Faktor-Authentifizierungsgerät verloren geht.',
                 'show_codes' => 'Wiederherstellungscodes anzeigen',
                 'hide_codes' => 'Wiederherstellungscodes ausblenden',
+            ],
+                ],
+            'disabling' => [
+                'notify' => 'Zwei-Faktor-Authentifizierung wurde deaktiviert.',
+            ],
+            'regenerate_codes' => [
+                'notify' => 'Neue Wiederherstellungscodes wurden generiert.',
             ],
             'confirmation' => [
                 'success_notification' => 'Code verifiziert. Zwei-Faktor-Authentifizierung aktiviert.',
